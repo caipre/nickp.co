@@ -1,0 +1,36 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #{$light};
+        --header-color: #{$dark};
+        --primary-color: #{$gray2};
+        --secondary-color: #{$gray5};
+        --accent-color: #{$green};
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #{$dark};
+        --header-color: #{$gray7};
+        --primary-color: #{$gray5};
+        --secondary-color: #{$gray3};
+        --accent-color: #{$green};
+    }
+}
+
+// mobile
+@media screen and (max-width: 32em) {
+    body { margin: 1rem; }
+}
+
+// tablet
+@media screen and (min-width: 32em) and (max-width: 64em) {
+    body { margin: 4rem 2rem 2rem 10%; }
+    body { max-width: 34rem; }
+}
+
+// desktop
+@media screen and (min-width: 64em) {
+    body { margin: 4rem 2rem 2rem 16%; }
+    body { max-width: 34rem; }
+}

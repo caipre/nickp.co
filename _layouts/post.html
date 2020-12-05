@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<main role="main">
+  <article>
+    <header>
+      <h1>{{page.title}}</h1>
+      <div class="meta flex items-center">
+        <span class="item">{% avatar caipre size=28 %}</span>
+        <span class="item">
+          <a href="{{site.url}}">{{site.author}}</a></span>
+        <span class="item">
+          <time datetime="{{page.date | date_to_xmlschema}}"
+                title="{{page.date | date_to_xmlschema}}">
+            {{page.date | date: "%B %e, %Y"}}
+          </time>
+        </span>
+        <span class="item">&#183;</span>
+        <span class="item">
+          {{page.content | number_of_words | divided_by: 200}} min read
+        </span>
+      </div>
+    </header>
+    <section class="content">
+    {{content}}
+    </section>
+    <footer>
+      <span><a href="{{site.url}}">Index</a></span>
+    </footer>
+  </article>
+</main>

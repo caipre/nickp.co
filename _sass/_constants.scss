@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Lato:wght@900&family=Roboto&family=Lora');
+
+$header-font: 'lato', sans-serif;
+$subheader-font: 'roboto', sans-serif;
+$body-font: 'lora', serif;
+
+// palette
+$dark:  hsl(0, 0%,  6%);
+$gray1: hsl(0, 0%, 12%);
+$gray2: hsl(0, 0%, 16%);
+$gray3: hsl(0, 0%, 30%);
+$gray5: hsl(0, 0%, 50%);
+$gray7: hsl(0, 0%, 73%);
+$light: hsl(210, 25%, 98%);
+$error: red;
+
+$green:  hsl(143.9, 56.3%, 34.1%);
+$blue:   hsl(228.1, 77.3%, 48.4%);
+
+:root {
+    --background-color: #{$error};
+    --header-color: #{$error};
+    --primary-color: #{$error};
+    --secondary-color: #{$error};
+    --accent-color: #{$error};
+
+    --header-font: #{$header-font};
+    --subheader-font: #{$subheader-font};
+    --body-font: #{$body-font};
+}

@@ -1,0 +1,86 @@
+// https://github.com/jneen/rouge/wiki/List-of-tokens
+
+pre.highlight {
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  padding: 0.6rem;
+}
+
+.highlight .w   { color: #aaaaaa; } // Whitespace
+.highlight .x   { color: #aaaaaa; } // Other (unknown to parser)
+.highlight .err { color: #aaaaaa; } // Error (lexer error)
+
+.highlight .k   { color: #d73a49; } // Keyword
+.highlight .kc  { color: #005cc5; } // Keyword::Constant
+.highlight .kd  { color: #d73a49; } // Keyword::Declaration
+.highlight .kn  { color: #d73a49; } // Keyword::Namespace
+.highlight .kp  { color: #d73a49; } // Keyword::Pseudo
+.highlight .kr  { color: #d73a49; } // Keyword::Reserved
+.highlight .kt  { color: #d73a49; } // Keyword::Type
+
+.highlight .n   { color: #6f42c1; } // Name
+.highlight .na  { color: #005cc5; } // Name::Attribute (eg, in HTML tags)
+.highlight .nb  { color: #005cc5; } // Name::Builtin
+.highlight .bp  { color: #005cc5; } // Name::Builtin::Pseudo (eg, self in Python)
+.highlight .nc  { color: #6f42c1; } // Name::Class
+.highlight .no  { color: #005cc5; } // Name::Constant
+.highlight .nd  { color: #6f42c1; } // Name::Decorator
+.highlight .ni  { color: #005cc5; } // Name::Entity (eg, &nbsp; in HTML)
+.highlight .ne  { color: #005cc5; } // Name::Exception
+.highlight .nf  { color: #6f42c1; } // Name::Function
+.highlight .py  { color: #6f42c1; } // Name::Property
+.highlight .nn  { color: #6f42c1; } // Name::Namespace
+.highlight .nx  { color: #6f42c1; } // Name::Other
+.highlight .nt  { color: #6f42c1; } // Name::Tag (eg, HTML tags)
+.highlight .nv  { color: #24292e; } // Name::Variable
+.highlight .vc  { color: #24292e; } // Name::Variable::Class
+.highlight .vg  { color: #24292e; } // Name::Variable::Global
+.highlight .vi  { color: #24292e; } // Name::Variable::Instance
+
+.highlight .l   { color: #032f62; } // Literal
+.highlight .ld  { color: #032f62; } // Literal::Date
+.highlight .s   { color: #032f62; } // Literal::String
+.highlight .sb  { color: #032f62; } // Literal::String::Backtick
+.highlight .sc  { color: #032f62; } // Literal::String::Char
+.highlight .sd  { color: #032f62; } // Literal::String::Doc
+.highlight .s2  { color: #032f62; } // Literal::String::Double-quoted
+.highlight .se  { color: #032f62; } // Literal::String::Escaped
+.highlight .sh  { color: #032f62; } // Literal::String::Heredoc
+.highlight .si  { color: #005cc5; } // Literal::String::Interpol
+.highlight .sx  { color: #032f62; } // Literal::String::Other
+.highlight .sr  { color: #032f62; } // Literal::String::Regex
+.highlight .s1  { color: #032f62; } // Literal::String::Single-quoted
+.highlight .ss  { color: #005cc5; } // Literal::String::Symbol
+.highlight .m   { color: #666666; } // Literal::Number
+.highlight .mf  { color: #005cc5; } // Literal::Number::Float
+.highlight .mh  { color: #005cc5; } // Literal::Number::Hex (number)
+.highlight .mi  { color: #005cc5; } // Literal::Number::Integer
+.highlight .il  { color: #005cc5; } // Literal::Number::Integer::Long
+.highlight .mo  { color: #005cc5; } // Literal::Number::::Oct
+.highlight .mx  { color: #005cc5; } // Literal::Number::Hex (literal)
+.highlight .mb  { color: #005cc5; } // Literal::Number::::Binary
+
+.highlight .o   { color: #d73a49; } // Operator
+.highlight .ow  { color: #d73a49; } // Operator::Word (eg, and)
+
+.highlight .p   { color: #aaaaaa; } // Punctuation
+
+.highlight .c   { color: #6a737d; } // Comment
+.highlight .cm  { color: #6a737d; } // Comment::Multiline
+.highlight .cp  { color: #d73a49; } // Comment::Preproc
+.highlight .c1  { color: #6a737d; } // Comment::Single
+.highlight .cs  { color: #6a737d; } // Comment::Special (eg, @license in javadoc)
+
+.highlight .g   { color: #aaaaaa; } // Generic
+.highlight .gd  { color: #b31d28; background-color: #ffeef0; } // Generic::Deleted
+.highlight .ge  { color: #aaaaaa; } // Generic::Emphasized
+.highlight .gr  { color: #aaaaaa; } // Generic::Error
+.highlight .gh  { color: #005cc5; } // Generic::Heading
+.highlight .gi  { color: #22863a; background-color: #f0fff4; } // Generic::Inserted
+.highlight .go  { color: #aaaaaa; } // Generic::Output
+.highlight .gp  { color: #aaaaaa; } // Generic::Prompt
+.highlight .gs  { font-weight: bold; } // Generic::Strong
+.highlight .gu  { color: #6f42c1; } // Generic::Subheading
+.highlight .gt  { color: #0044DD; } // Generic::Traceback
+.highlight .gl  { color: #aaaaaa; } // Generic::Lineno

@@ -1,0 +1,148 @@
+// vertical rhythm from https://www.gridlover.net/try
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  font-size: 18px;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  color: var(--header-color);
+  font-family: var(--header-font);
+  font-size: 2.2rem;
+  letter-spacing: -0.05rem;
+  line-height: 1;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h1 + h2 {
+  color: var(--secondary-color);
+  margin-top: -0.7rem;
+  font-weight: lighter;
+}
+
+h2 {
+  color: var(--header-color);
+  font-family: var(--header-font);
+  font-size: 1.4rem;
+  letter-spacing: -0.04rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  color: var(--header-color);
+  font-family: var(--header-font);
+  font-size: 1.1rem;
+  letter-spacing: -0.04rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+h4 {
+  color: var(--secondary-color);
+  font-family: var(--header-font);
+  font-size: 0.7rem;
+  letter-spacing: 0.07rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+a:link, a:visited {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  color: var(--accent-color);
+}
+
+p, ul, ol, pre, table, blockquote {
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+hr {
+  border: 0;
+  background-color: var(--secondary-color);
+  height: 1px;
+  margin: 2rem auto;
+}
+
+a, b, i, strong, em, small, code {
+}
+
+img {
+//   margin: 1rem 0;
+//   border-radius: 3px;
+}
+
+pre {
+  line-height: 1.1;
+  overflow-x: scroll;
+}
+
+code {
+  color: var(--primary-color);
+  font-size: 0.75em; // note: ems, not rems
+}
+
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+article {
+  .meta {
+    color: var(--secondary-color);
+    font-family: var(--subheader-font);
+    font-size: 0.8em;
+
+    img {
+      border-radius: 100%;
+    }
+  }
+
+  header {
+    margin-bottom: 2rem;
+    .item {
+      margin-right: 0.4rem;
+    }
+  }
+
+  .content {
+    margin-bottom: 8rem;
+    text-align: justify;
+  }
+
+  footer {
+   span {
+      border-top: 1px solid var(--primary-color);
+      padding: 0.6rem 0;
+      font-size: 0.8rem;
+    }
+    a:link, a:visited, a:active, a:hover {
+      color: var(--primary-color);
+    }
+  }
+}
