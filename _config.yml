@@ -1,0 +1,27 @@
+title: Nick Platt
+author: Nick Platt
+url: https://nickp.co
+email: platt.nicholas@gmail.com
+github_username: caipre
+description: |
+  Backpacking, paragliding, engineering.
+
+permalink: /:year/:month/:title
+
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-seo-tag
+- jemoji
+
+defaults:
+  - scope:
+      path: .
+      type: posts
+    values:
+      layout: post
+
+gtag: 'UA-132738950-1'
