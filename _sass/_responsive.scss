@@ -4,7 +4,6 @@
         --header-color: #{$dark};
         --primary-color: #{$gray2};
         --secondary-color: #{$gray5};
-        --accent-color: #{$green};
     }
 }
 
@@ -14,23 +13,32 @@
         --header-color: #{$gray7};
         --primary-color: #{$gray5};
         --secondary-color: #{$gray3};
-        --accent-color: #{$green};
+        --accent-color: #{$accent-color-dark};
+        --accent-background-color: #{$accent-background-color-dark};
     }
 }
 
 // mobile
 @media screen and (max-width: 32em) {
-    body { margin: 1rem; }
+    body { margin: 4rem 2rem; }
 }
 
 // tablet
 @media screen and (min-width: 32em) and (max-width: 64em) {
-    body { margin: 4rem 2rem 2rem 10%; }
-    body { max-width: 34rem; }
+    body { margin: 4rem 2rem; }
 }
 
 // desktop
 @media screen and (min-width: 64em) {
-    body { margin: 4rem 2rem 2rem 16%; }
-    body { max-width: 34rem; }
+    body { margin: 4rem 2rem; }
+    #container {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 60rem;
+    }
+    article > :not(figure img) {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 38rem;
+    }
 }

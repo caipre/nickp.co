@@ -7,7 +7,7 @@ $body-font: 'lora', serif;
 // palette
 $dark:  hsl(0, 0%,  6%);
 $gray1: hsl(0, 0%, 12%);
-$gray2: hsl(0, 0%, 16%);
+$gray2: hsl(0, 0%, 18%);
 $gray3: hsl(0, 0%, 30%);
 $gray5: hsl(0, 0%, 50%);
 $gray7: hsl(0, 0%, 73%);
@@ -16,13 +16,20 @@ $error: red;
 
 $green:  hsl(143.9, 56.3%, 34.1%);
 $blue:   hsl(228.1, 77.3%, 48.4%);
+$accent-color: hsl(225, 60%, 45%);
+$accent-background-color: hsl(225, 100%, 94%);
+$accent-color-dark: hsl(225, 42%, 35%);
+$accent-background-color-dark: hsl(220, 22%, 12%);
+
 
 :root {
     --background-color: #{$error};
     --header-color: #{$error};
     --primary-color: #{$error};
     --secondary-color: #{$error};
-    --accent-color: #{$error};
+
+    --accent-color: #{$accent-color};
+    --accent-background-color: #{$accent-background-color};
 
     --header-font: #{$header-font};
     --subheader-font: #{$subheader-font};
